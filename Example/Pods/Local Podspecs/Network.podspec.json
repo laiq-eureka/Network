@@ -1,0 +1,27 @@
+{
+  "name": "Network",
+  "version": "0.1.0",
+  "summary": "A short description of Network.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Rana Laiq Ahmed/Network",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rana Laiq Ahmed": "laiq@rebeltechnology.io"
+  },
+  "source": {
+    "git": "https://github.com/Rana Laiq Ahmed/Network.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Network/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}
