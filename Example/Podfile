@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Network_Example' do
+  pod 'Network', :path => '../'
+
+  target 'Network_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
